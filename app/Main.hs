@@ -1,4 +1,6 @@
 module Main where
 
+import qualified Mklint
+
 main :: IO ()
-main = putStrLn "Hello, Haskell!"
+main = Mklint.helloWorld
