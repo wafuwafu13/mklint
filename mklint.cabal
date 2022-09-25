@@ -17,6 +17,7 @@ extra-doc-files:    CHANGELOG.md
 common common-all
     build-depends:
         base ^>=4.17.0.0,
+        toml-reader ==0.1.0.0,
     ghc-options:      -Wall
     default-language: Haskell2010
 
