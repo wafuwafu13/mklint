@@ -1,0 +1,8 @@
+apikey = "abcde12345"
+pidfile = "./path/to/pidfile"
+
+[plugin.checks.sample]
+command = "sample command"
+
+[plugin.checks.sample2]
+command = "sample2 command"
